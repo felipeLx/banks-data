@@ -2,6 +2,7 @@
     "Countries": [
         {
             "Country": "Mexico",
+            "Payretailers": "./images/m-manual.PNG",
             "Banks": [
                 {
                     "Bank": "BBVA",

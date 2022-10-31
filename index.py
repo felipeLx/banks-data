@@ -6,9 +6,10 @@ st.title('Latam Banks Details')
 
 st.sidebar.title("Filter the Country and Bank to show details")
 
-tab1, tab2 = st.tabs(["Limits", "Better Option"])
+tab1, tab2, tab3 = st.tabs(["Limits", "Better Option", "Manual Limits"])
 tab1.write("Limits and How to handle")
 tab2.write("Better option for payment")
+tab3.write("Manual Payment Limits: Daily and Monthly")
 
 country_selectbox = st.sidebar.selectbox(
     "Select the Country",
@@ -39,5 +40,7 @@ with open('banks.json', 'r') as jf:
                     tab2.write(detail['Bank'])
                     for i in options['Digital card']:
                         tab2.write(i)
+                    
+                    tab3.image(row['Payretailers'])
     
 
