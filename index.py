@@ -43,6 +43,7 @@ with open('banks.json', 'r') as jf:
                     for i in options['Digital card']:
                         tab2.write(i)
                     
+                    tab3.write(row['Country'])
                     tab3.image(row['Payretailers'])
                     
                     with tab0:
