@@ -32,7 +32,7 @@ with open('banks.json', 'r') as jf:
         for detail in row['Banks']:
             if row['Country'] == country_selectbox and detail['Bank'] == bank_selectbox:    
                 for options in detail['Limits']:
-                    (html(html_temp, width=1200, height=1200, scrolling=True))
+                    tab0._html(html(html_temp, width=1200, height=1200, scrolling=True))
                     tab1.write(row['Country'])
                     tab1.write(detail['Bank'])
                     tab1.write(options['Text'])
