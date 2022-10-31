@@ -32,6 +32,8 @@ with open('banks.json', 'r') as jf:
                     tab1.write('Currency: ' + options['Currency'])
                     tab1.write('Per day: ' +  options['Per day'])
                     tab1.write('Per month: ' +  options['Monthly'])
+                    for i in options['handling']:
+                        tab1.image(i)
                 
                     tab2.write(row['Country'])
                     tab2.write(detail['Bank'])

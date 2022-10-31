@@ -11,6 +11,7 @@
                             "Currency": "Mex Pesos",
                             "Per day": "8,000",
                             "Monthly": "29,500",
+                            "handling": ["./images/m-b-1.PNG","./images/m-b-2.PNG","./images/m-b-3.PNG","./images/m-b-4.PNG","./images/m-b-5.PNG","./images/m-b-6.PNG"],
                             "Digital card": [
                                 "the most popular bank in Mexico that has an excellent virtual card. https://www.bbva.mx/personas/servicios-digitales/tarjeta-digital.html",
                                 "You can activate it from your BBVA app and instantly you can: Buy online safely, since the digital card number is different from the physical card.",
