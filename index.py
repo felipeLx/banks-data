@@ -18,10 +18,11 @@ country_selectbox = st.sidebar.selectbox(
     ("Mexico", "Peru", "Colombia")
 )
 
-bank_selectbox = st.sidebar.selectbox(
-    "Select the Bank",
-    ("BBVA", "Banregio", "Volaris Invex", "HSBC", "Santander", "Bancoppel")
-)
+if country_selectbox == 'Mexico':
+    bank_selectbox = st.sidebar.selectbox(
+        "Select the Bank",
+        ("BBVA", "Banregio", "Volaris Invex", "HSBC", "Santander", "Bancoppel", "Citibanamex", "Afirme", "Inbursa", "Scotiabank", "Banorte")
+    )
      
 with open('banks.json', 'r') as jf:
     json_file = json.load(jf)
