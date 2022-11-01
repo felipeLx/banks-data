@@ -73,6 +73,32 @@
                             "Digital card": ["For online shopping Santander just works with Virtual Card, just credit card or old debit cards that can get success with a normal card, for any case the better option is the Virtual Card. \n How activate the Virtual Card: https://youtu.be/j_JaQ_z-sZ0 \n How to use the Virtual Card: https://youtu.be/uXvoqN2s46Y"]
                         }
                     ]
+                },
+                {
+                    "Bank": "Bancoppel",
+                    "Limits": [
+                        {
+                            "Text": "The best way to use online is with activation of the security code using the app: https://docs.google.com/document/d/1S1ESiGFGaJCmrT-UfqHK9gsrq9fl2TyiqqUgXWg28Vs/edit#bookmark=id.bfo6nfzibz3q \n Didn’t find a way to change the limits on the app, but the client can dispose off more credit requesting online the Prestámo Digital. The client receives the credit offer on the app. The client can look for: https://www.bancoppel.com/credito_bcopp/prestamo-digital.html",
+                            "Currency": "Mex Pesos",
+                            "Per day": "not informed",
+                            "Monthly": "client have option to increase the credit following the screens below",
+                            "handling": ["./images/m-bp-1.PNG","./images/m-bp-2.PNG","./images/m-bp-3.PNG","./images/m-bp-4.PNG","./images/m-bp-5.PNG"],
+                            "Digital card": []
+                        }
+                    ]
+                },
+                {
+                    "Bank": "Citibanamex",
+                    "Limits": [
+                        {
+                            "Text": "CItibanamex allows the client to change the limits by online banking or by the app. \n How to handle digital CVV to use the normal card below the pictures that show how to increase the limits.",
+                            "Currency": "Mex Pesos",
+                            "Per day": "not informed",
+                            "Monthly": "client have option to increase the credit following the screens below",
+                            "handling": ["./images/m-ct-1.PNG","./images/m-ct-2.PNG","./images/m-ct-3.PNG","./images/m-ct-4.PNG","./images/m-ct-5.PNG","./images/m-ct-6.PNG","./images/m-ct-7.PNG"],
+                            "Digital card": ["Have one more step than others: activation of the NetKey, it is a security tool that you activate on your cell phone through Citibanamex Móvil that allows you to generate dynamic passwords to authorise operations in Citibanamex Móvil, BancaNet y Audiomático. \n The Digital CVV is a three-digit random security number that helps reduce the risk of online shopping fraud. Requires access to Citibanamex Móvil. To have the View data option (option to display the 16 digits and the expiration date of your Citibanamex Credit Card), NetKey is required.", "./images/m-ct-8.PNG"]
+                        }
+                    ]
                 }
             ]
         },
