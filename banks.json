@@ -18,8 +18,7 @@
                                 "You can activate it from your BBVA app and instantly you can: Buy online safely, since the digital card number is different from the physical card.",
                                 "Use a dynamic security code (CVV), which changes every 5 minutes. This will prevent your data from being used without your permission. Shop online 24 hours a day. Activate your card or temporarily turn it off from your BBVA application. Have your digital card information at hand on your cell phone.",
                                 "WHAT DO YOU NEED TO HAVE AND USE YOUR DIGITAL CARD? Have a debit account or digital account with BBVA. Have a cell phone with internet access. Contract BBVA Digital Services. Be registered in the BBVA Alerts service. HOW CAN YOU ACTIVATE YOUR DIGITAL CARD? Enter your BBVA app. In the 'My cards' section, press the one you want to activate its digital version. Accept the terms and conditions and press 'Generate and activate card'. Video where show how to handle: https://youtu.be/_ulS8A7F7FY" 
-                            ],
-                            "Pics": [""]
+                            ]
                         }
                     ]
                 },
@@ -31,9 +30,7 @@
                             "Currency": "Mex Pesos",
                             "Per day": "client change on the app",
                             "Monthly": "depends of the client income, clients must call to increase limits",
-                            "handling": [""],
-                            "Digital card": [""],
-                            "Pics": [""]
+                            
                         }
                     ]
                 },
