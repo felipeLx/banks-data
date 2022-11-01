@@ -21,6 +21,58 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "Bank": "Banregio",
+                    "Limits": [
+                        {
+                            "Text": "For this card the client must contract the OTP service (150 M.N.). To change the limits the client must select his card inside the online bank or bank app, after select the card will open a option and button: Modificar. That time will open an option: Cantidad, with that the client will be allowed to make the changes on limit, number of international transactions allowed per day, and the period that the changes will be allowed. Again the client needs to click on: Continuar to continue, and will request the client token to confirm the changes. PDF document with all information by the bank: https://portalbanregio.s3.amazonaws.com/assets/naranja/img/GuiaUsuario_BEEmpresarial.pdf",
+                            "Currency": "Mex Pesos",
+                            "Per day": "client change on the app",
+                            "Monthly": "depends of the client income, clients must call to increase limits",
+                            "handling": [],
+                            "Digital card": []
+                        }
+                    ]
+                },
+                {
+                    "Bank": "Volaris Invex",
+                    "Limits": [
+                        {
+                            "Text": "Was not possible to found information about how to increase limits, they always recommend the contact by phone: 'INVEX al 5540004000 o al 5540006566 las 24 horas los 365 días'. Document / Contract of the card: https://www.invextarjetas.com.mx/invex/Documentos/Contratos/ContratoUniversalTDC_INVEX.pdf",
+                            "Currency": "Mex Pesos",
+                            "Per day": "depends of the client income, clients must call to increase limits",
+                            "Monthly": "depends of the client income, clients must call to increase limits",
+                            "handling": [],
+                            "Digital card": []
+                        }
+                    ]
+                },
+                {
+                    "Bank": "HSBC",
+                    "Limits": [
+                        {
+                            "Text": "PDF with information and card options, that show that the cards, like all the others, will depends of the incoming (salary) of the clients:https://www.hsbc.com.mx/content/dam/hsbc/mx/documents/tarjetas/folleto_digital_tarjetas.pdf \n How to increase limits:",
+                            "Currency": "Mex Pesos",
+                            "Per day": "2,000",
+                            "Monthly": "more than 15,000",
+                            "handling": ["./images/m-h-1.PNG","./images/m-h-2.PNG"],
+                            "Digital card": []
+                        }
+                    ]
+                },
+                {
+                    "Bank": "Santander",
+                    "Limits": [
+                        {
+                            "Text": "Santader does not tell what the monthly limits are, just the debit card that the daily limit is $ 10,000 pesos. \n The client can increment the limit adding credit to the card must check: 've tus ofertas aquí' on the bank app. When the client completes the process the new limits will be allowed on 48h.",
+                            "Currency": "Mex Pesos",
+                            "Per day": "10,000",
+                            "Monthly": "need request by online methods, request will be allowed on 48h",
+                            "handling": ["./images/m-s-1.PNG","./images/m-s-2.PNG","./images/m-s-3.PNG"],
+                            "Digital card": ["For online shopping Santander just works with Virtual Card, just credit card or old debit cards that can get success with a normal card, for any case the better option is the Virtual Card. \n How activate the Virtual Card: https://youtu.be/j_JaQ_z-sZ0 \n How to use the Virtual Card: https://youtu.be/uXvoqN2s46Y"]
+                        }
+                    ]
                 }
             ]
         },
