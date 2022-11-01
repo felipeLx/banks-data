@@ -1,3 +1,4 @@
+from queue import Empty
 import streamlit as st
 import json
 import pandas as pd
@@ -37,14 +38,17 @@ with open('banks.json', 'r') as jf:
                     tab1.write('Per day: ' +  options['Per day'])
                     tab1.write('Per month: ' +  options['Monthly'])
                     for i in options['handling']:
-                        tab1.image(i)
+                        if i:
+                            tab1.image(i)
                 
                     tab2.write(row['Country'])
                     tab2.write(detail['Bank'])
                     for i in options['Digital card']:
-                        tab2.write(i)
+                        if i:
+                            tab2.write(i)
                     for i in options['Pics']:
-                        tab2.image(i)
+                        if i:
+                            tab2.image(i)
                     
                     tab3.write(row['Country'])
                     tab3.image(row['Payretailers'])
