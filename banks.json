@@ -100,6 +100,76 @@
                             "Pics": ["./images/m-ct-8.PNG"]
                         }
                     ]
+                },
+                {
+                    "Bank": "Azteca",
+                    "Limits": [
+                        {
+                            "Text": "The client can change the limits for credit card transaction using the web app following the steps: \n 1) Open the App. \n 2) Enter the Gold Credit Card. \n 3) In the information section in the Credit Limit section select Adjust \n 4) Swipe to the right if you want to increase the Credit Line of your Gold Card. \n 5) Also, you can swipe to the left if you want to decrease your Credit Line. \n 6) Confirm the setting by entering your security key and voila! You will receive an email and a notification on your cell phone with the confirmation.",
+                            "Currency": "Mex Pesos",
+                            "Per day": "18,000",
+                            "Monthly": "client have option to increase the credit following the screens below",
+                            "handling": ["./images/m-a-4.PNG","./images/m-a-5.PNG","./images/m-a-6.PNG"],
+                            "Digital card": ["For each Debit Card the client has a Digital Card associated. \n Just follow these simple instructions: \n 1. Select your account; \n 2. Select the image of the 'Digital Card' (on the upper right side); \n 3. Enter your 'App Security Key' and you will access your Digital Card; \n 4. Your CVV3 security code will change every five minutes for greater security in your purchases."],
+                            "Pics": ["./images/m-a-1.PNG","./images/m-a-2.PNG","./images/m-a-3.PNG"]
+                        }
+                    ]
+                },
+                {
+                    "Bank": "Afirme",
+                    "Limits": [
+                        {
+                            "Text": "The client to know how much the expenses limits of the card need to call the bank: Para saldos es necesario comunicarse al número 81-83-18-39-90, opciones 2-2-1-1. \n Document with cards options: https://www.afirme.com/dam/jcr:b37d86d1-366b-41ac-9320-ae8fb161ecc8/Manejo%20y%20Uso%20de%20TDC.pdf \n ",
+                            "Currency": "Mex Pesos",
+                            "Per day": "not informed",
+                            "Monthly": "client have access to personal credit, must call the bank, to have 9,000,000",
+                            "handling": [""],
+                            "Digital card": ["How to make online transfer : SPEI \n In the Accounts section, open the + dynamic menu and select the “Send Money” (Enviar Dinero) option. \n Capture the data of the destination account that is requested, the amount, reference and concept, you can save the destination account or add it as a favourite for your next transfers that you make. \n Select Continue and ready your transfer will have been made."],
+                            "Pics": ["./images/m-af-1.PNG","./images/m-af-2.PNG","./images/m-af-3.PNG"]
+                        }
+                    ]
+                },
+                {
+                    "Bank": "Inbursa",
+                    "Limits": [
+                        {
+                            "Text": "The client when asking for the card will define the credit limits, that will depend on the income of them. After 1 year of the card the bank can call the client to offer the increase of the limits.",
+                            "Currency": "Mex Pesos",
+                            "Per day": "defined when the client request the card",
+                            "Monthly": "not informed",
+                            "handling": [""],
+                            "Digital card": ["None option found."],
+                            "Pics": []
+                        }
+                    ] 
+                },
+                {
+                    "Bank": "Scotiabank",
+                    "Limits": [
+                        {
+                            "Text": "For online shopping it is recommended that the client do the activation of the dynamic CVV. Document about the cards information: https://scotiabankfiles.azureedge.net/scotia-bank-mexico/spanish/pdf/Serviciosbancarios/FOR_Li%CC%81mites.pdf",
+                            "Currency": "Mex Pesos",
+                            "Per day": "not informed",
+                            "Monthly": "200,000",
+                            "handling": ["./images/m-sc-3.PNG","./images/m-sc-4.PNG","./images/m-sc-5.PNG","./images/m-sc-6.PNG","./images/m-sc-7.PNG","./images/m-sc-8.PNG"],
+                            "Digital card": ["The client can use the bank app to handle transfers by SPEI, but to do the transfer by app the client must register the new beneficiary first by the Scotia Web (online banking), from the app just is allowed to do transfers for the account that registered."],
+                            "Pics": ["./images/m-sc-1.PNG","./images/m-sc-2.PNG"]
+                        }
+                    ] 
+                },
+                {
+                    "Bank": "Banorte",
+                    "Limits": [
+                        {
+                            "Text": "The client using the app with phone registered has the limit of 9,000/pesos per day / month (USD 450 approx.). \n Banorte has a low limit of transaction from all the banks in Mexico, and that we must have to care about it: https://www.banorte.com/cms/doc/Banorte-Movil-Monto-Operaciones.pdf \n Clients can handle limits for debit cards using online banking: \n Enter through the main menu Administration; Debit Cards; Increase/Decrease Limit \n Menú principal Administración; Tarjetas de Débito; Aumento/Disminución de Limite: \n Select the Debit Card for which you wish to consult or modify operation limits. You will be able to view all the main and additional cards of the account where you are the Holder or Co-Holder, click on the 'Continue' button. \n (Spanish) Selecciona la Tarjeta de Débito de la cual deseas consultar o modificar límites de operación. Podrás visualizar todas las tarjetas titulares y adicionales de la cuenta donde seas el Titular o Cotitular, dar clic en el botón 'Continuar'.",
+                            "Currency": "Mex Pesos",
+                            "Per day": "9,000",
+                            "Monthly": "9,000",
+                            "handling": [],
+                            "Digital card": [],
+                            "Pics": []
+                        }
+                    ] 
                 }
             ]
         },
