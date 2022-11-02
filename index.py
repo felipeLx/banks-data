@@ -60,11 +60,21 @@ with open('banks.json', 'r') as jf:
                     tab3.write(row['Country'])
                     tab3.image(row['Payretailers'])
                     tab3.image('./images/a-manual.PNG')
-        
-                    tab4.write(row['Manual Pmt'])
-                    for i in row['Manual Pic']:
-                        if i:
-                            tab4.image(i)
+
+                    for types in row["Manual"]:
+                        tab4.write(types['Cash Pmt'])
+                        for i in types["Cash Pic"]:
+                            if i:
+                                tab4.image(i)
+                        tab4.write(types['Bank Pmt'])
+                        for i in types["Bank Pic"]:
+                            if i:
+                                tab4.image(i)
+                        if types["Others Pmt"]:
+                            tab4.write(types['Others Pmt'])
+                            for i in types["Others Pic"]:
+                                if i:
+                                    tab4.image(i)
         
                     
                     with tab0:
